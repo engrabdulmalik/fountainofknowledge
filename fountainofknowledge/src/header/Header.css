@@ -1,0 +1,26 @@
+.main {
+  background-color: aquamarine;
+  width: 100%;
+  height: 15rem;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.header1-1 {
+  background-color: rgb(120, 159, 185);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header1-2 {
+  background-color: rgb(132, 116, 149);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.nav {
+  background-color: rgb(205, 153, 131);
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+}
