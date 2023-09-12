@@ -1,5 +1,5 @@
 
-import SimpleImageSlider from "react-simple-image-slider";
+
 import React, { useState, useEffect } from 'react';
 import f1 from "../pictures/FULL.png"
 import f2 from "../pictures/FULL2.png"

@@ -1,4 +1,6 @@
 import "../header/Header.css";
+import NavBar from "./NavBar";
+
 const Header = () => {
   return (
     <div className="main">
@@ -12,14 +14,14 @@ const Header = () => {
       </div>
       <div className="header1-2">
         <div>
-          <img></img>
+          <img alt="Company Logo Here"></img>
         </div>
         <div>
           <h1>Company Name</h1>
         </div>
       </div>
       <div className="nav">
-       
+        <NavBar></NavBar>
       </div>
     </div>
   );
